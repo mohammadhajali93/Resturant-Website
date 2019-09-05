@@ -1,0 +1,103 @@
+@import url('http://fonts.googleapis.com/css?family=lato:400,700');
+
+body{
+    overflow-x:hidden;
+    
+    color: #505962;
+}
+
+.navbar
+{
+	text-transform:uppercase;
+	font-weight : 700;
+	font-size: .9rem;
+	letter-spacing: .1rem;
+	background : rgba(0,0,0,0.6)!important;
+}
+.navbar-brand{
+    height : 2px;
+}
+.os
+{
+	background:#123;
+	color:#FFF;
+	margin-bottom:20px;
+	padding:20px;
+	min-height:100px
+}
+
+.img-responsive
+{
+	
+	max-width:100%;
+	height:auto;
+	margin:auto;
+	margin-left:auto;
+	margin-right:auto
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	
+	
+}
+.navbar-dark .navbar-brand{
+	
+	background:#E41B17;
+	color:#EEFF41
+}
+.about{
+	
+	padding-top:60px;
+	padding-bottom:60px
+}
+
+.lead{
+	
+	color:#888;
+	font-size:25px;
+	margin-top:15px;
+	
+}
+.feath{
+	background:#EEE;
+	padding-top:40px;
+	padding-bottom:40px
+}
+
+.price-table{
+	background:#EEE;
+	padding-top:40px;
+	padding-bottom:40px
+}
+
+.price-box p{
+	background:#F3F3F3;
+	padding:10px;
+	border:50px solid #DDD
+}
+
+.center-block{
+	font-size:80px;
+	font-weight:bold;
+	color:#3B8EE0;
+	width:100px;
+	height:100px;
+	background:#123;
+	border-radius:50%;
+	line-height:20px;
+	
+}
+p.center-block:hover{
+	border:3px solid #F00
+	
+}
+.price-box p{
+	-webkit-transform:scale(1.1,1.1)rotate(360deg);
+	-moz-transform:scale(1.1,1.1)rotate(360deg);
+	-o-transform:scale(1.1,1.1)rotate(360deg);
+	transform:scale(1.1,1.1)rotate(360deg);
+	
+}
+p.lead{
+	font-weight:bold;
+}
